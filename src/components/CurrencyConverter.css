@@ -1,0 +1,116 @@
+.currency-page {
+  background: linear-gradient(145deg, #e0f2f1, #b2dfdb);
+  min-height: 100vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.converter-card {
+  background: white;
+  width: 420px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.converter-title {
+  font-size: 2rem;
+  color: #00695c;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #004d40;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a7d7c5;
+  border-radius: 10px;
+  margin-top: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.convert-btn {
+  background: #00796b;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.convert-btn:hover {
+  background: #004d40;
+}
+
+.error {
+  color: #e53935;
+  margin-top: 10px;
+}
+
+.result-section {
+  margin-top: 25px;
+}
+
+.result-box {
+  background: #f1f8f6;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: inset 0 0 10px rgba(0, 121, 107, 0.1);
+}
+
+.result-box h2 {
+  font-size: 1.5rem;
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+.result-box h3 {
+  font-size: 1.4rem;
+  color: #00796b;
+  margin: 8px 0;
+}
+
+.result-box p.date {
+  color: #388e3c;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+.back-btn {
+  margin-top: 25px;
+  background: #cfd8dc;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin:10px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #b0bec5;
+}
+
+@media (max-width: 500px) {
+  .converter-card {
+    width: 90%;
+    padding: 30px;
+  }
+}

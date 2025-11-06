@@ -1,0 +1,104 @@
+.quote-page {
+  background: linear-gradient(145deg, #ede7f6, #e3f2fd);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+  width:100vw;
+}
+
+.quote-card {
+  background: white;
+  width: 500px;
+  padding: 50px 40px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.quote-title {
+  font-size: 2rem;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+.quote-box {
+  background: #faf5ff;
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: inset 0 0 10px rgba(106, 27, 154, 0.1);
+}
+
+.placeholder {
+  color: #9575cd;
+  font-style: italic;
+}
+
+.quote-text {
+  font-size: 1.4rem;
+  color: #4a148c;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.quote-author {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #7b1fa2;
+  font-size: 1rem;
+}
+
+.loading {
+  color: #607d8b;
+}
+
+.error {
+  color: #e53935;
+}
+
+.new-quote-btn {
+  background: #8e24aa;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.new-quote-btn:hover {
+  background: #6a1b9a;
+}
+
+.new-quote-btn:active {
+  transform: scale(0.97);
+}
+
+
+.back-btn {
+  margin-top: 20px;
+  background: #cfd8dc;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #b0bec5;
+}
+
+@media (max-width: 520px) {
+  .quote-card {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .quote-text {
+    font-size: 1.1rem;
+  }
+}
