@@ -3,6 +3,9 @@
   padding: 50px 20px;
   background: linear-gradient(to bottom right, #f2f7ff, #e0eaff);
   min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
   width:100vw;
 }
 

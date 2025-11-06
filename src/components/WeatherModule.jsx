@@ -11,7 +11,8 @@ export default function WeatherModule() {
 
   const fetchWeather = async () => {
     try {
-      const res = await axios.get(`/api/weather?city=${city}`);
+      const baseUrl = "https://infohub-backend-kvcs.onrender.com"
+      const res = await axios.get(`${baseUrl}/api/weather?city=${city}`);
       setData(res.data.weather);
     } catch (err) {
       console.error("Error fetching weather", err);

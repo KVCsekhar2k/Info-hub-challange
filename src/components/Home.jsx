@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <div className="home-container">
-      <h1 className="main-title">🌐 InfoHub – Smart Utility Dashboard</h1>
+      <h1 className="main-title">Smart Utility Dashboard</h1>
       <div className="cards-container">
         {cards.map((card, i) => (
           <div

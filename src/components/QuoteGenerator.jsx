@@ -14,7 +14,8 @@ export default function QuoteGenerator() {
     try {
       setLoading(true);
       setError("");
-      const res = await axios.get("/api/quote");
+      const baseurl = "https://infohub-backend-kvcs.onrender.com"
+      const res = await axios.get(`${baseurl}/api/quote`);
       setQuote(res.data.quote);
     } catch {
       setError("Failed to fetch quote. Try again!");
